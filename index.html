@@ -342,7 +342,7 @@ var events=[
 // ── Load GeoJSON ──────────────────────────────────────────
 function loadGeoJSON() {
   // Try to load actors.geojson from same folder
-  fetch('actors.geojson')
+   fetch('actors.geojson?v=' + Date.now())
     .then(function(r){ return r.json(); })
     .then(function(gj){ parseGeoJSON(gj); })
     .catch(function(){
