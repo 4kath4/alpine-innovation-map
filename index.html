@@ -11,7 +11,7 @@
   https://cloud.maptiler.com/account/keys
   ═══════════════════════════════════════════════════
 -->
-<script>var MAPTILER_KEY = 'Y8EQfqRtn6ffnfXgq36K';</script>
+<script>var MAPTILER_KEY = 'YOUR_MAPTILER_KEY';</script>
 
 <!--
   ═══════════════════════════════════════════════════
@@ -342,7 +342,7 @@ var events=[
 // ── Load GeoJSON ──────────────────────────────────────────
 function loadGeoJSON() {
   // Try to load actors.geojson from same folder
-   fetch('actors.geojson?v=' + Date.now())
+  fetch('actors.geojson?v=' + Date.now())
     .then(function(r){ return r.json(); })
     .then(function(gj){ parseGeoJSON(gj); })
     .catch(function(){
@@ -374,25 +374,33 @@ function parseGeoJSON(gj) {
 }
 
 function loadEmbedded() {
-  // Embedded fallback — precise OSM coordinates
   actors = [
-    {id:1, name:'NOI Techpark',         city:'bozen',     type:'hub',     lon:11.3367, lat:46.4981, tags:['open','free','campus','uni_site','data','kids','regional','international','monthly'], desc:'113 Unternehmen, 2.400 Personen täglich, 43 Startups, 70 Labore.'},
-    {id:2, name:'unibz',                city:'bozen',     type:'uni',     lon:11.3385, lat:46.4975, tags:['open','campus','uni_site','regional','international'], desc:'Freie Universität Bozen — 3 min vom NOI.'},
-    {id:3, name:'Eurac Research',       city:'bozen',     type:'corp',    lon:11.3380, lat:46.4978, tags:['campus','data','regional','international'], desc:'Forschungszentrum im NOI.'},
-    {id:4, name:'Fraunhofer Italia',    city:'bozen',     type:'corp',    lon:11.3360, lat:46.4985, tags:['campus','international'], desc:'Angewandte Forschung im NOI.'},
-    {id:5, name:'TUM',                  city:'muenchen',  type:'uni',     lon:11.5678, lat:48.1497, tags:['campus','international'], desc:'Top-25 weltweit CS. Abgänger: BMW, Siemens, Google.'},
-    {id:6, name:'LMU München',          city:'muenchen',  type:'uni',     lon:11.5796, lat:48.1508, tags:['campus','international'], desc:'€230M Spin-off Investments 2024.'},
-    {id:7, name:'UnternehmerTUM',       city:'muenchen',  type:'hub',     lon:11.6693, lat:48.2650, tags:['campus','international'], desc:'1.100+ Startups/Jahr. Semi-geschlossen.'},
-    {id:8, name:'BMW Group',            city:'muenchen',  type:'corp',    lon:11.5639, lat:48.1770, tags:['international'], desc:'Größter Einzelarbeitgeber für TUM-Abgänger.'},
-    {id:9, name:'Siemens TU Campus',    city:'muenchen',  type:'corp',    lon:11.5900, lat:48.1400, tags:['international'], desc:'Industry-on-Campus — nicht öffentlich.'},
-    {id:10,name:'Uni Innsbruck',        city:'innsbruck', type:'uni',     lon:11.3863, lat:47.2628, tags:['campus','regional'], desc:'27.800 Studierende, 16 Fakultäten.'},
-    {id:11,name:'MCI Innsbruck',        city:'innsbruck', type:'uni',     lon:11.3945, lat:47.2680, tags:['campus','regional','international'], desc:'3.500 Studierende, 66 Nationen.'},
-    {id:12,name:'InnCubator',           city:'innsbruck', type:'startup', lon:11.4010, lat:47.2590, tags:['regional'], desc:'Gründungszentrum Innsbruck.'},
-    {id:13,name:'Impact Hub Tirol',     city:'innsbruck', type:'event',   lon:11.4080, lat:47.2610, tags:['open','free','regional'], desc:'Community für soziales Unternehmertum.'},
-    {id:14,name:'Startup.Tirol',        city:'innsbruck', type:'startup', lon:11.3920, lat:47.2650, tags:['regional'], desc:'8+ Träger, kein gemeinsamer Campus.'},
-    {id:15,name:'FH Kufstein',          city:'kufstein',  type:'uni',     lon:12.1667, lat:47.5805, tags:['campus','regional','international'], desc:'ca. 2.000 Studierende.'},
-    {id:16,name:'Startup.Club Kufstein',city:'kufstein',  type:'startup', lon:12.1710, lat:47.5780, tags:['regional'], desc:'Junges Gründungsnetzwerk.'},
-    {id:17,name:'Paris Lodron Uni',     city:'salzburg',  type:'uni',     lon:13.0400, lat:47.8024, tags:['campus','regional','international'], desc:'17.000 Studierende.'},
+    {id:1,  name:'NOI Techpark',          city:'bozen',     type:'hub',     lon:11.33245, lat:46.47839, tags:['open','free','campus','uni_site','data','kids','regional','international','monthly'], desc:'113 Unternehmen, 2.400 Personen täglich, 43 Startups, 70 Labore.'},
+    {id:2,  name:'unibz',                 city:'bozen',     type:'uni',     lon:11.33400, lat:46.47950, tags:['open','campus','uni_site','regional','international'], desc:'Freie Universitaet Bozen direkt im NOI.'},
+    {id:3,  name:'Eurac Research',        city:'bozen',     type:'corp',    lon:11.33180, lat:46.47780, tags:['campus','data','regional','international'], desc:'Forschungszentrum im NOI.'},
+    {id:4,  name:'Fraunhofer Italia',     city:'bozen',     type:'corp',    lon:11.33310, lat:46.47900, tags:['campus','international'], desc:'Angewandte Forschung im NOI.'},
+    {id:5,  name:'IDM Suedtirol',         city:'bozen',     type:'corp',    lon:11.35440, lat:46.49870, tags:['regional','international'], desc:'Wirtschaftsfoerderung Suedtirol.'},
+    {id:6,  name:'KlimaHaus Agentur',     city:'bozen',     type:'corp',    lon:11.33260, lat:46.47860, tags:['campus','regional','international','data'], desc:'Nachhaltigkeitszertifizierung, 18.000+ Gebaeude.'},
+    {id:7,  name:'Laimburg Research',     city:'bozen',     type:'corp',    lon:11.28662, lat:46.38202, tags:['regional','data'], desc:'Forschungszentrum Landwirtschaft Suedtirol. Vadena.'},
+    {id:8,  name:'TUM',                   city:'muenchen',  type:'uni',     lon:11.56750, lat:48.14220, tags:['campus','international'], desc:'Top-25 weltweit CS. Arcisstrasse 21.'},
+    {id:9,  name:'LMU Muenchen',          city:'muenchen',  type:'uni',     lon:11.58040, lat:48.15080, tags:['campus','international'], desc:'230M EUR Spin-off Investments 2024.'},
+    {id:10, name:'UnternehmerTUM',        city:'muenchen',  type:'hub',     lon:11.65320, lat:48.24890, tags:['campus','international'], desc:'1.100+ Startups/Jahr. Garching bei Muenchen.'},
+    {id:11, name:'BMW Group HQ',          city:'muenchen',  type:'corp',    lon:11.55600, lat:48.17280, tags:['international'], desc:'Groesster Einzelarbeitgeber fuer TUM-Abgaenger. Petuelring 130.'},
+    {id:12, name:'Siemens AG Muenchen',   city:'muenchen',  type:'corp',    lon:11.57150, lat:48.14320, tags:['international'], desc:'Wittelsbacherplatz 2, Muenchen.'},
+    {id:13, name:'Google Muenchen',       city:'muenchen',  type:'corp',    lon:11.54680, lat:48.14670, tags:['international'], desc:'Google Engineering Center. Erika-Mann-Strasse 33.'},
+    {id:14, name:'McKinsey Muenchen',     city:'muenchen',  type:'corp',    lon:11.59300, lat:48.13970, tags:['international'], desc:'Top-Arbeitgeber fuer LMU/TUM-Absolventen.'},
+    {id:15, name:'Allianz SE',            city:'muenchen',  type:'corp',    lon:11.58720, lat:48.14560, tags:['international'], desc:'Koeniginstrasse 28, Muenchen.'},
+    {id:16, name:'Uni Innsbruck',         city:'innsbruck', type:'uni',     lon:11.38630, lat:47.26280, tags:['campus','regional'], desc:'27.800 Studierende, 16 Fakultaeten.'},
+    {id:17, name:'MCI Innsbruck',         city:'innsbruck', type:'uni',     lon:11.39800, lat:47.26920, tags:['campus','regional','international'], desc:'3.500 Studierende, 66 Nationen.'},
+    {id:18, name:'InnCubator',            city:'innsbruck', type:'startup', lon:11.40500, lat:47.26000, tags:['regional'], desc:'Gruendungszentrum Innsbruck.'},
+    {id:19, name:'Impact Hub Tirol',      city:'innsbruck', type:'event',   lon:11.39200, lat:47.26500, tags:['open','free','regional'], desc:'Community fuer soziales Unternehmertum.'},
+    {id:20, name:'Startup.Tirol',         city:'innsbruck', type:'startup', lon:11.40100, lat:47.26700, tags:['regional'], desc:'8+ Traeger, kein gemeinsamer Campus.'},
+    {id:21, name:'Standortagentur Tirol', city:'innsbruck', type:'corp',    lon:11.41300, lat:47.25800, tags:['regional','international'], desc:'Wirtschaftsfoerderung Tirol.'},
+    {id:22, name:'Health Hub Tirol',      city:'innsbruck', type:'startup', lon:11.42000, lat:47.26200, tags:['regional','international'], desc:'Gesundheitswirtschafts-Cluster Tirol.'},
+    {id:23, name:'FH Kufstein',           city:'kufstein',  type:'uni',     lon:12.16500, lat:47.57940, tags:['campus','regional','international'], desc:'ca. 2.000 Studierende.'},
+    {id:24, name:'Startup.Club Kufstein', city:'kufstein',  type:'startup', lon:12.16800, lat:47.58100, tags:['regional'], desc:'Junges Gruendungsnetzwerk Kufstein.'},
+    {id:25, name:'Paris Lodron Uni',      city:'salzburg',  type:'uni',     lon:13.04690, lat:47.79920, tags:['campus','regional','international'], desc:'17.000 Studierende.'},
+    {id:26, name:'Techno-Z Salzburg',     city:'salzburg',  type:'hub',     lon:13.04300, lat:47.82200, tags:['campus','regional','international'], desc:'Technologie- und Innovationszentrum Salzburg.'},
   ];
   renderActorList();
   if(map&&map.loaded()) renderMarkers();
