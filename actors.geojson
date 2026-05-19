@@ -3,88 +3,133 @@
   "features": [
     {
       "type": "Feature",
-      "properties": { "id": 1, "name": "NOI Techpark", "city": "bozen", "type": "hub", "tags": ["open","free","campus","uni_site","data","kids","regional","international","monthly"], "desc": "113 Unternehmen, 2.400 Personen täglich, 43 Startups, 70 Labore. Öffentlich zugänglich." },
-      "geometry": { "type": "Point", "coordinates": [11.3367, 46.4981] }
+      "properties": { "id": 1, "name": "NOI Techpark", "city": "bozen", "type": "hub", "tags": ["open","free","campus","uni_site","data","kids","regional","international","monthly"], "desc": "113 Unternehmen, 2.400 Personen täglich, 43 Startups, 70 Labore. Voltastraße 13A, Bozen." },
+      "geometry": { "type": "Point", "coordinates": [11.33245, 46.47839] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 2, "name": "unibz", "city": "bozen", "type": "uni", "tags": ["open","campus","uni_site","regional","international"], "desc": "Freie Universität Bozen — 3 min vom NOI. Dreisprachig DE/IT/EN." },
-      "geometry": { "type": "Point", "coordinates": [11.3385, 46.4975] }
+      "properties": { "id": 2, "name": "unibz", "city": "bozen", "type": "uni", "tags": ["open","campus","uni_site","regional","international"], "desc": "Freie Universität Bozen — direkt im NOI. Dreisprachig DE/IT/EN. Informatik, Wirtschaft, Design, Ingenieurwesen." },
+      "geometry": { "type": "Point", "coordinates": [11.33400, 46.47950] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 3, "name": "Eurac Research", "city": "bozen", "type": "corp", "tags": ["campus","data","regional","international"], "desc": "Interdisziplinäres Forschungszentrum im NOI. Alpine Umwelt, Autonomie, Gesundheit." },
-      "geometry": { "type": "Point", "coordinates": [11.3380, 46.4978] }
+      "properties": { "id": 3, "name": "Eurac Research", "city": "bozen", "type": "corp", "tags": ["campus","data","regional","international"], "desc": "Führendes Forschungszentrum im NOI. Alpine Umwelt, Autonomie, Gesundheit." },
+      "geometry": { "type": "Point", "coordinates": [11.33180, 46.47780] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 4, "name": "Fraunhofer Italia", "city": "bozen", "type": "corp", "tags": ["campus","international"], "desc": "Angewandte Forschung im NOI — Automation, Software, Energie." },
-      "geometry": { "type": "Point", "coordinates": [11.3360, 46.4985] }
+      "properties": { "id": 4, "name": "Fraunhofer Italia", "city": "bozen", "type": "corp", "tags": ["campus","international"], "desc": "Angewandte Forschung im NOI — Automation, Software, Energiesysteme." },
+      "geometry": { "type": "Point", "coordinates": [11.33310, 46.47900] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 5, "name": "TUM", "city": "muenchen", "type": "uni", "tags": ["campus","international"], "desc": "Top-25 weltweit CS. Größter Arbeitgeber für Abgänger: BMW, Siemens, Google." },
-      "geometry": { "type": "Point", "coordinates": [11.5678, 48.1497] }
+      "properties": { "id": 5, "name": "IDM Südtirol", "city": "bozen", "type": "corp", "tags": ["regional","international"], "desc": "Innovators, Developers & Marketers. Wirtschaftsförderung und Standortmarketing Südtirol. Pfarrplatz 11, Bozen." },
+      "geometry": { "type": "Point", "coordinates": [11.35440, 46.49870] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 6, "name": "LMU München", "city": "muenchen", "type": "uni", "tags": ["campus","international"], "desc": "€230M Spin-off Investments 2024. Talent fließt in globale Corporates." },
-      "geometry": { "type": "Point", "coordinates": [11.5796, 48.1508] }
+      "properties": { "id": 6, "name": "KlimaHaus Agentur", "city": "bozen", "type": "corp", "tags": ["campus","regional","international","data"], "desc": "Nachhaltigkeitszertifizierung, 18.000+ zertifizierte Gebäude. Voltastraße 13A, Bozen (im NOI)." },
+      "geometry": { "type": "Point", "coordinates": [11.33260, 46.47860] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 7, "name": "UnternehmerTUM", "city": "muenchen", "type": "hub", "tags": ["campus","international"], "desc": "1.100+ Startups/Jahr gefördert. Semi-geschlossen, kein öffentlicher Rhythmus." },
-      "geometry": { "type": "Point", "coordinates": [11.6693, 48.2650] }
+      "properties": { "id": 7, "name": "Laimburg Research Centre", "city": "bozen", "type": "corp", "tags": ["regional","data"], "desc": "Führendes Forschungszentrum für Landwirtschaft und Lebensmittel in Südtirol. Seit 1975. Vadena/Pfatten." },
+      "geometry": { "type": "Point", "coordinates": [11.28662, 46.38202] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 8, "name": "BMW Group", "city": "muenchen", "type": "corp", "tags": ["international"], "desc": "Größter Einzelarbeitgeber für TUM-Abgänger. Talent fließt ab." },
-      "geometry": { "type": "Point", "coordinates": [11.5639, 48.1770] }
+      "properties": { "id": 8, "name": "TUM", "city": "muenchen", "type": "uni", "tags": ["campus","international"], "desc": "Top-25 weltweit CS. Arcisstraße 21, München. Größte Arbeitgeber für Abgänger: BMW, Siemens, Google." },
+      "geometry": { "type": "Point", "coordinates": [11.5675, 48.1422] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 9, "name": "Siemens TU Campus", "city": "muenchen", "type": "corp", "tags": ["international"], "desc": "Industry-on-Campus an der TUM — nicht öffentlich zugänglich." },
-      "geometry": { "type": "Point", "coordinates": [11.5900, 48.1400] }
+      "properties": { "id": 9, "name": "LMU München", "city": "muenchen", "type": "uni", "tags": ["campus","international"], "desc": "€230M Spin-off Investments 2024. Geschwister-Scholl-Platz 1. Talent fließt in globale Corporates." },
+      "geometry": { "type": "Point", "coordinates": [11.5804, 48.1508] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 10, "name": "Uni Innsbruck", "city": "innsbruck", "type": "uni", "tags": ["campus","regional"], "desc": "27.800 Studierende, 16 Fakultäten." },
+      "properties": { "id": 10, "name": "UnternehmerTUM", "city": "muenchen", "type": "hub", "tags": ["campus","international"], "desc": "1.100+ Startups/Jahr. Europas führendes Gründerzentrum (FT). Liegeplatz: Garching bei München." },
+      "geometry": { "type": "Point", "coordinates": [11.6532, 48.2489] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 11, "name": "BMW Group HQ", "city": "muenchen", "type": "corp", "tags": ["international"], "desc": "Größter Einzelarbeitgeber für TUM-Abgänger. Petuelring 130, München. Talent fließt global ab." },
+      "geometry": { "type": "Point", "coordinates": [11.5560, 48.1728] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 12, "name": "Siemens AG München", "city": "muenchen", "type": "corp", "tags": ["international"], "desc": "Weltgrößtes Siemens-Kooperationszentrum an der TUM. Wittelsbacherplatz 2, München." },
+      "geometry": { "type": "Point", "coordinates": [11.5715, 48.1432] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 13, "name": "Google München", "city": "muenchen", "type": "corp", "tags": ["international"], "desc": "Google Engineering Center München. Erika-Mann-Straße 33, Arnulfpark. Top-Arbeitgeber für TUM/LMU-Abgänger." },
+      "geometry": { "type": "Point", "coordinates": [11.5468, 48.1467] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 14, "name": "McKinsey München", "city": "muenchen", "type": "corp", "tags": ["international"], "desc": "Top-5-Arbeitgeber für LMU/TUM-Absolventen. Maximilianstraße 40, München." },
+      "geometry": { "type": "Point", "coordinates": [11.5930, 48.1397] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 15, "name": "Allianz SE", "city": "muenchen", "type": "corp", "tags": ["international"], "desc": "Großer Arbeitgeber für TUM/LMU-Abgänger. Königinstraße 28, München." },
+      "geometry": { "type": "Point", "coordinates": [11.5872, 48.1456] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 16, "name": "Uni Innsbruck", "city": "innsbruck", "type": "uni", "tags": ["campus","regional"], "desc": "27.800 Studierende, 16 Fakultäten. Innrain 52, Innsbruck." },
       "geometry": { "type": "Point", "coordinates": [11.3863, 47.2628] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 11, "name": "MCI Innsbruck", "city": "innsbruck", "type": "uni", "tags": ["campus","regional","international"], "desc": "3.500 Studierende, 66 Nationen." },
-      "geometry": { "type": "Point", "coordinates": [11.3945, 47.2680] }
+      "properties": { "id": 17, "name": "MCI Innsbruck", "city": "innsbruck", "type": "uni", "tags": ["campus","regional","international"], "desc": "Unternehmerische Hochschule. 3.500 Studierende, 66 Nationen. Universitätsstraße 15." },
+      "geometry": { "type": "Point", "coordinates": [11.3980, 47.2692] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 12, "name": "InnCubator", "city": "innsbruck", "type": "startup", "tags": ["regional"], "desc": "Gründungszentrum Innsbruck." },
-      "geometry": { "type": "Point", "coordinates": [11.4010, 47.2590] }
+      "properties": { "id": 18, "name": "InnCubator", "city": "innsbruck", "type": "startup", "tags": ["regional"], "desc": "Gründungs- und Innovationszentrum Innsbruck. Eines von 8+ Trägern ohne gemeinsamen Campus." },
+      "geometry": { "type": "Point", "coordinates": [11.4050, 47.2600] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 13, "name": "Impact Hub Tirol", "city": "innsbruck", "type": "event", "tags": ["open","free","regional"], "desc": "Community für soziales Unternehmertum." },
-      "geometry": { "type": "Point", "coordinates": [11.4080, 47.2610] }
-    },
-    {
-      "type": "Feature",
-      "properties": { "id": 14, "name": "Startup.Tirol", "city": "innsbruck", "type": "startup", "tags": ["regional"], "desc": "8+ Träger, kein gemeinsamer Campus — Kontrast zu NOI." },
+      "properties": { "id": 19, "name": "Impact Hub Tirol", "city": "innsbruck", "type": "event", "tags": ["open","free","regional"], "desc": "Community für soziales Unternehmertum und Impact Startups." },
       "geometry": { "type": "Point", "coordinates": [11.3920, 47.2650] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 15, "name": "FH Kufstein", "city": "kufstein", "type": "uni", "tags": ["campus","regional","international"], "desc": "ca. 2.000 Studierende. Wirtschaft & Technik." },
-      "geometry": { "type": "Point", "coordinates": [12.1667, 47.5805] }
+      "properties": { "id": 20, "name": "Startup.Tirol", "city": "innsbruck", "type": "startup", "tags": ["regional"], "desc": "Koordinationsstelle Tiroler Startup-Ökosystem. 8+ Träger, kein zentraler Campus — Kontrast zu NOI." },
+      "geometry": { "type": "Point", "coordinates": [11.4010, 47.2670] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 16, "name": "Startup.Club Kufstein", "city": "kufstein", "type": "startup", "tags": ["regional"], "desc": "Junges Gründungsnetzwerk." },
-      "geometry": { "type": "Point", "coordinates": [12.1710, 47.5780] }
+      "properties": { "id": 21, "name": "Standortagentur Tirol", "city": "innsbruck", "type": "corp", "tags": ["regional","international"], "desc": "Wirtschaftsförderung und Standortentwicklung Tirol. Ing.-Etzel-Straße 17, Innsbruck." },
+      "geometry": { "type": "Point", "coordinates": [11.4130, 47.2580] }
     },
     {
       "type": "Feature",
-      "properties": { "id": 17, "name": "Paris Lodron Uni", "city": "salzburg", "type": "uni", "tags": ["campus","regional","international"], "desc": "17.000 Studierende." },
-      "geometry": { "type": "Point", "coordinates": [13.0400, 47.8024] }
+      "properties": { "id": 22, "name": "Health Hub Tirol", "city": "innsbruck", "type": "startup", "tags": ["regional","international"], "desc": "Gesundheitswirtschafts-Cluster Tirol. Vernetzt Startups, Kliniken und Forschung." },
+      "geometry": { "type": "Point", "coordinates": [11.4200, 47.2620] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 23, "name": "FH Kufstein", "city": "kufstein", "type": "uni", "tags": ["campus","regional","international"], "desc": "ca. 2.000 Studierende. Wirtschaft & Technik. Andreas-Hofer-Straße 7, Kufstein." },
+      "geometry": { "type": "Point", "coordinates": [12.1650, 47.5794] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 24, "name": "Startup.Club Kufstein", "city": "kufstein", "type": "startup", "tags": ["regional"], "desc": "Junges Gründungsnetzwerk Kufstein. Kein physischer Campus." },
+      "geometry": { "type": "Point", "coordinates": [12.1680, 47.5810] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 25, "name": "Paris Lodron Uni Salzburg", "city": "salzburg", "type": "uni", "tags": ["campus","regional","international"], "desc": "17.000 Studierende. Kapitelgasse 4, Salzburg." },
+      "geometry": { "type": "Point", "coordinates": [13.0469, 47.7992] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 26, "name": "Techno-Z Salzburg", "city": "salzburg", "type": "hub", "tags": ["campus","regional","international"], "desc": "Technologie- und Innovationszentrum Salzburg. Jakob-Haringer-Straße 1." },
+      "geometry": { "type": "Point", "coordinates": [13.0430, 47.8220] }
     }
   ]
 }
