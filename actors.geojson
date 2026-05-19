@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": 1, "name": "NOI Techpark", "city": "bozen", "type": "hub", "tags": ["open","free","campus","uni_site","data","kids","regional","international","monthly"], "desc": "113 Unternehmen, 2.400 Personen täglich, 43 Startups, 70 Labore. Öffentlich zugänglich." },
+      "geometry": { "type": "Point", "coordinates": [11.3367, 46.4981] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 2, "name": "unibz", "city": "bozen", "type": "uni", "tags": ["open","campus","uni_site","regional","international"], "desc": "Freie Universität Bozen — 3 min vom NOI. Dreisprachig DE/IT/EN." },
+      "geometry": { "type": "Point", "coordinates": [11.3385, 46.4975] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 3, "name": "Eurac Research", "city": "bozen", "type": "corp", "tags": ["campus","data","regional","international"], "desc": "Interdisziplinäres Forschungszentrum im NOI. Alpine Umwelt, Autonomie, Gesundheit." },
+      "geometry": { "type": "Point", "coordinates": [11.3380, 46.4978] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 4, "name": "Fraunhofer Italia", "city": "bozen", "type": "corp", "tags": ["campus","international"], "desc": "Angewandte Forschung im NOI — Automation, Software, Energie." },
+      "geometry": { "type": "Point", "coordinates": [11.3360, 46.4985] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 5, "name": "TUM", "city": "muenchen", "type": "uni", "tags": ["campus","international"], "desc": "Top-25 weltweit CS. Größter Arbeitgeber für Abgänger: BMW, Siemens, Google." },
+      "geometry": { "type": "Point", "coordinates": [11.5678, 48.1497] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 6, "name": "LMU München", "city": "muenchen", "type": "uni", "tags": ["campus","international"], "desc": "€230M Spin-off Investments 2024. Talent fließt in globale Corporates." },
+      "geometry": { "type": "Point", "coordinates": [11.5796, 48.1508] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 7, "name": "UnternehmerTUM", "city": "muenchen", "type": "hub", "tags": ["campus","international"], "desc": "1.100+ Startups/Jahr gefördert. Semi-geschlossen, kein öffentlicher Rhythmus." },
+      "geometry": { "type": "Point", "coordinates": [11.6693, 48.2650] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 8, "name": "BMW Group", "city": "muenchen", "type": "corp", "tags": ["international"], "desc": "Größter Einzelarbeitgeber für TUM-Abgänger. Talent fließt ab." },
+      "geometry": { "type": "Point", "coordinates": [11.5639, 48.1770] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 9, "name": "Siemens TU Campus", "city": "muenchen", "type": "corp", "tags": ["international"], "desc": "Industry-on-Campus an der TUM — nicht öffentlich zugänglich." },
+      "geometry": { "type": "Point", "coordinates": [11.5900, 48.1400] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 10, "name": "Uni Innsbruck", "city": "innsbruck", "type": "uni", "tags": ["campus","regional"], "desc": "27.800 Studierende, 16 Fakultäten." },
+      "geometry": { "type": "Point", "coordinates": [11.3863, 47.2628] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 11, "name": "MCI Innsbruck", "city": "innsbruck", "type": "uni", "tags": ["campus","regional","international"], "desc": "3.500 Studierende, 66 Nationen." },
+      "geometry": { "type": "Point", "coordinates": [11.3945, 47.2680] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 12, "name": "InnCubator", "city": "innsbruck", "type": "startup", "tags": ["regional"], "desc": "Gründungszentrum Innsbruck." },
+      "geometry": { "type": "Point", "coordinates": [11.4010, 47.2590] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 13, "name": "Impact Hub Tirol", "city": "innsbruck", "type": "event", "tags": ["open","free","regional"], "desc": "Community für soziales Unternehmertum." },
+      "geometry": { "type": "Point", "coordinates": [11.4080, 47.2610] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 14, "name": "Startup.Tirol", "city": "innsbruck", "type": "startup", "tags": ["regional"], "desc": "8+ Träger, kein gemeinsamer Campus — Kontrast zu NOI." },
+      "geometry": { "type": "Point", "coordinates": [11.3920, 47.2650] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 15, "name": "FH Kufstein", "city": "kufstein", "type": "uni", "tags": ["campus","regional","international"], "desc": "ca. 2.000 Studierende. Wirtschaft & Technik." },
+      "geometry": { "type": "Point", "coordinates": [12.1667, 47.5805] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 16, "name": "Startup.Club Kufstein", "city": "kufstein", "type": "startup", "tags": ["regional"], "desc": "Junges Gründungsnetzwerk." },
+      "geometry": { "type": "Point", "coordinates": [12.1710, 47.5780] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 17, "name": "Paris Lodron Uni", "city": "salzburg", "type": "uni", "tags": ["campus","regional","international"], "desc": "17.000 Studierende." },
+      "geometry": { "type": "Point", "coordinates": [13.0400, 47.8024] }
+    }
+  ]
+}
